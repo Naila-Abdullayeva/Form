@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat Formu</title>
+    <link rel="stylesheet" href="form-1.css">
+</head>
+
+<body>
+    <div id="container">
+        <form action="">
+            <h1>İştirak etmək üçün qeydiyyat formunu doldurun</h1>
+            <hr noshade>
+            <img src="greeting.jpg" width="650px" alt="Greeting"></p>
+
+            <h2>Şəxsi Məlumatlarınız</h2>
+            <div class="font">
+                <label for="full_name">Tam Adınız</label><br>
+                <input id="full_name" class="inp" type="text" placeholder="Ad, Soyad, Ata adı"><br>
+                <label for="birthdate">Doğum tarixiniz</label><br>
+                <input class="inp" type="date" name="" id="birthdate"><br>
+                <label for="emailad">Email adresiniz</label><br>
+                <input id="emailad" class="inp" type="email" placeholder="Email adresiniz" name="" id=""><br>
+                <label for="num">Telefon nömrəniz</label><br>
+                <select class="prefix" name="" id="">
+                    <option value="">050</option>
+                    <option value="" selected>051</option>
+                    <option value="">055</option>
+                    <option value="">070</option>
+                    <option value="">077</option>
+                </select>
+                <input id="num" class="number" inputmode="tel" type="tel" placeholder="1234567"><br>
+
+                <label for="">Yaşadığınız ərazi</label><br>
+                <select id="city" name="" id="">
+                    <option value="">Bakı</option>
+                    <option value="">Gəncə</option>
+                    <option value="">Sumqayıt</option>
+                    <option value="">Lənkəran</option>
+                    <option value="">Ağdaş</option>
+                    <option value="">Naxçıvan</option>
+                    <option value="">İsmayıllı</option>
+                </select><br>
+
+                <span for="">Gender:</span>
+                <input type="radio" name="gender">
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+                <label for="">Female</label><br>
+            </div>
+            
+            <div class="divs">
+                <h2>Proqramlaşdırma bilikləriniz</h2>
+                <span>Front-end</span><br>
+                <input type="checkbox">
+                <label for="">HTML & CSS</label><br>
+                <input type="checkbox">
+                <label for="">JavaScript</label><br>
+                <input type="checkbox">
+                <label for="">Bootstrap</label><br>
+                <input type="checkbox">
+                <label for="">Jquery</label><br>
+                <input type="checkbox">
+                <label for="">Ajax</label> <br><br>
+            </div>
+            <div class="divs third">
+                <span>Back-end</span><br>
+                <input type="checkbox">
+                <label for="">Java</label><br>
+                <input type="checkbox">
+                <label for="">C#</label><br>
+                <input type="checkbox">
+                <label for="">C++</label><br>
+                <input type="checkbox">
+                <label for="">Phyton</label><br>
+                <input type="checkbox">
+                <label for="">Php</label><br><br>
+
+            </div>
+             <div>
+                <label class="font">Əlavə etmək istədiyiniz sənəd varsa:</label>
+                <input class="files" type="file"><br>
+            
+                <input type="submit" value="Göndərin">
+             </div>
+        </form>
+    
+    </div>
+</body>
+
+</html>
